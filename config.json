@@ -1,27 +1,43 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 30,
-    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    "height": 36,
+    "spacing": 4,
+    "modules-left": [],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "network", "battery", "tray"],
-    "hyprland/window": {
-        "format": "{}"
-    },
+    "modules-right": ["pulseaudio", "network"],
+    
+    // Часы
     "clock": {
-        "format": "{:%H:%M}"
+        "interval": 1,
+        "format": " {:%H:%M}",
+        "tooltip": false
     },
+
+    // Звук
     "pulseaudio": {
-        "format": "{volume}% {icon}",
-        "format-icons": ["", "", ""]
+        "format": "{icon} {volume}%",
+        "format-bluetooth": " {icon} {volume}%",
+        "format-muted": " Muted",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", ""]
+        },
+        "scroll-step": 1,
+        "on-click": "pavucontrol"
     },
+
+    // Сеть
     "network": {
         "format-wifi": " {essid}",
-        "format-ethernet": " {ipaddr}",
-        "format-disconnected": "⚠ No network"
-    },
-    "battery": {
-        "format": "{capacity}% {icon}",
-        "format-icons": ["", "", "", "", ""]
+        "format-ethernet": " {ifname}",
+        "format-disconnected": "⚠ No Net",
+        "interval": 5,
+        "on-click": "nm-connection-editor"
     }
 }
