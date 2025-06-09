@@ -1,0 +1,25 @@
+* {
+    font-family: "JetBrains Mono", "Noto Sans", sans-serif;
+    font-size: 12px;
+}
+
+window#waybar {
+    background: rgba(40, 42, 54, 0.9);  /* Фиолетово-синий с прозрачностью */
+    color: #bd93f9;                      /* Фиолетовый текст */
+    border-radius: 10px;                 /* Скруглённые углы */
+    margin: 5px;                         /* Отступы */
+}
+
+#workspaces button {
+    color: #f8f8f2;
+    padding: 0 5px;
+}
+
+#workspaces button.focused {
+    background: #6272a4;
+    border-radius: 5px;
+}
+
+#clock, #pulseaudio, #network, #battery {
+    padding: 0 10px;
+}
