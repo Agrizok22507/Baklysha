@@ -1,25 +1,32 @@
 * {
-    font-family: "JetBrains Mono", "Noto Sans", sans-serif;
-    font-size: 12px;
+    font-family: "JetBrains Mono Nerd Font", sans-serif;
+    font-size: 14px;
+    min-height: 0;
 }
 
 window#waybar {
-    background: rgba(40, 42, 54, 0.9);  /* Фиолетово-синий с прозрачностью */
-    color: #bd93f9;                      /* Фиолетовый текст */
-    border-radius: 10px;                 /* Скруглённые углы */
-    margin: 5px;                         /* Отступы */
+    background: rgba(30, 0, 50, 0.7);  /* Тёмно-фиолетовый с прозрачностью */
+    color: #bd93f9;                    /* Светло-фиолетовый текст */
+    border-radius: 10px;               /* Скруглённые углы */
+    margin: 5px;                       /* Отступы */
 }
 
-#workspaces button {
-    color: #f8f8f2;
-    padding: 0 5px;
+#clock, #pulseaudio, #network {
+    padding: 0 12px;
+    margin: 3px 0;
+    color: #e0b0ff;                    /* Нежно-фиолетовый */
+    background: rgba(123, 72, 179, 0.3); /* Фиолетовый фон модулей */
+    border-radius: 8px;
 }
 
-#workspaces button.focused {
-    background: #6272a4;
-    border-radius: 5px;
+#pulseaudio {
+    color: #c678dd;                    /* Ярко-фиолетовый */
 }
 
-#clock, #pulseaudio, #network, #battery {
-    padding: 0 10px;
+#network {
+    color: #9a7fd9;                    /* Фиолетово-синий */
+}
+
+#clock {
+    font-weight: bold;
 }
