@@ -1,0 +1,15 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 36,
+    "spacing": 4,
+    "modules-left": [],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio", "network"],
+    
+    // clock
+    "clock": {
+        "interval": 1,
+        "format": " {:%H:%M}",
+        "tooltip": false
+    }
