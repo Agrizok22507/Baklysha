@@ -1,15 +1,24 @@
-## INSTALL : git clone https://github.com/Agrizok22507/Baklysha.git
+# ------------------------- Baklysha -------------------------#
+## HOW TO INSTALL? ##
+# (IN TERMINAL) :
+sudo pacman -S git  # (if you haven't git)
+git clone https://github.com/Agrizok22507/Baklysha.git
+
+# Move files to paths :
+
+# ~/Baklysha/Foot/Foot.ini        -TO-   ~/.config/foot/foot.ini        |FOOT|
+# ~/Baklysha/Hypr/Hyprland.conf   -TO-   ~/.config/hypr/hyprland.conf   |HYPRLAND|
+# ~/Baklysha/Waybar/config        -TO-   ~/.config/waybar/config        |WAYBAR|
+# ~/Baklysha/Waybar/style.css     -TO-   ~/.config/waybar/style.css     |WAYBAR|
+# (make dirs and files if you haven't their)
 
 
-# Terminal = FOOT
-# Browser = FIREFOX
-# File-Manager = DOLPHIN
-# Panel = WAYBAR
-# App-search = WOFI
+# INFO :
 
-# Config paths :
+# Terminal     =     FOOT
+# Browser      =     FIREFOX
+# File-Manager =     DOLPHIN
+# Panel        =     WAYBAR
+# App-search   =     WOFI
 
-# ~/.config/foot/foot.ini        |FOOT|
-# ~/.config/hypr/hyprland.conf   |HYPRLAND|
-# ~/.config/waybar/config        |WAYBAR|
-# ~/.config/waybar/style.css     |WAYBAR|
+# ------------------------- Baklysha -------------------------#
