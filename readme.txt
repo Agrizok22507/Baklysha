@@ -4,7 +4,7 @@
 sudo pacman -S git  # (if you haven't git)
 git clone https://github.com/Agrizok22507/Baklysha.git
 
-# Move files to paths :
+# MOVE FILES TO PATHS :
 
 # ~/Baklysha/Foot/Foot.ini        -TO-   ~/.config/foot/foot.ini        |FOOT|
 # ~/Baklysha/Hypr/Hyprland.conf   -TO-   ~/.config/hypr/hyprland.conf   |HYPRLAND|
