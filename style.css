@@ -11,20 +11,12 @@ window#waybar {
     margin: 5px;                       /* Отступы */
 }
 
-#clock, #pulseaudio, #network {
+#clock {
     padding: 0 12px;
     margin: 3px 0;
     color: #e0b0ff;                    /* Нежно-фиолетовый */
     background: rgba(123, 72, 179, 0.3); /* Фиолетовый фон модулей */
     border-radius: 8px;
-}
-
-#pulseaudio {
-    color: #c678dd;                    /* Ярко-фиолетовый */
-}
-
-#network {
-    color: #9a7fd9;                    /* Фиолетово-синий */
 }
 
 #clock {
