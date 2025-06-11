@@ -6,10 +6,10 @@ git clone https://github.com/Agrizok22507/Baklysha.git
 
 # MOVE FILES TO PATHS :
 
-# ~/Baklysha/Foot/Foot.ini        -TO-   ~/.config/foot/foot.ini        |FOOT|
-# ~/Baklysha/Hypr/Hyprland.conf   -TO-   ~/.config/hypr/hyprland.conf   |HYPRLAND|
-# ~/Baklysha/Waybar/config        -TO-   ~/.config/waybar/config        |WAYBAR|
-# ~/Baklysha/Waybar/style.css     -TO-   ~/.config/waybar/style.css     |WAYBAR|
+# ~/Baklysha/foot/foot.ini        -TO-   ~/.config/foot/foot.ini        |FOOT|
+# ~/Baklysha/hypr/hyprland.conf   -TO-   ~/.config/hypr/hyprland.conf   |HYPRLAND|
+# ~/Baklysha/waybar/config        -TO-   ~/.config/waybar/config        |WAYBAR|
+# ~/Baklysha/waybar/style.css     -TO-   ~/.config/waybar/style.css     |WAYBAR|
 # (make dirs and files if you haven't their)
 
 
