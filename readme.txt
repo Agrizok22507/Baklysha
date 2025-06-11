@@ -13,6 +13,8 @@ git clone https://github.com/Agrizok22507/Baklysha.git
 # (make dirs and files if you haven't their)
 
 
+# RENAME "Virtual-1" to name your monitor in hypr/hyprland.conf line 12
+
 # INFO :
 
 # Terminal     =     FOOT
